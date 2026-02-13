@@ -1,4 +1,4 @@
-let musicPlaying = false
+let musicPlaying = true
 
 window.addEventListener('load', () => {
     launchConfetti()
