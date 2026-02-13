@@ -46,10 +46,10 @@ music.play().then(() => {
     music.muted = false
 }).catch(() => {
     // Fallback: unmute on first interaction
-    document.addEventListener('click', () => {
-        music.muted = false
-        music.play().catch(() => {})
-    }, { once: true })
+//    document.addEventListener('click', () => {
+//        music.muted = false
+//        music.play().catch(() => {})
+//    }, { once: true })
 })
 
 function toggleMusic() {
